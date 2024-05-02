@@ -1,8 +1,8 @@
 input{
     background-color: rgb(102, 243, 243);
-    border: ;
+    border: none;
 }
-input:hover{
+input :hover::after{
     background-color: white;
 }
 
