@@ -14,7 +14,7 @@ print "5475";//This is a string
 
 print"<br>";//Using <br> to break line
 
-print date('1');//Display current day of the week
+print date('l');//Display current day of the week
 
 print"<br>";//Using <br> to break line
 
@@ -24,7 +24,7 @@ print"<br>";//Using <br> to break line
 
 date_default_timezone_set("Africa/Nairobi");
 
-print date('1, F jS Y H:i:s');
+print date('l, F jS Y H:i:s');
 
 
 
@@ -46,7 +46,7 @@ echo $fname . " was born in " . $yob;
 
 print"<br>";//Using <br> to break line
 
-echo $fname . " was actually born on " . date('1, F jS Y H:i:s');
+echo $fname . " was actually born on " . date('l, F jS Y H:i:s');
 
 echo $yob;
 
@@ -81,7 +81,7 @@ echo'</pre>';
 
 print"<br>";//Using <br> to break line
 
-print $fname . " is, actually, " . $interval-> . " years " . $interval->m . " months, and " . $interval->d . "days old.";
+print $fname . " is, actually, " . $interval->y . " years " . $interval->m . " months, and " . $interval->d . "days old.";
 
 print"<br>";//Using <br> to break line
 
@@ -106,9 +106,19 @@ echo 'My last name is ' . $last_name;
 
 print"<br>";//Using <br> to break line
 
-echo "Today is " . date('1');
+echo "Today is " . date('l');
+
+print"<br>";//Using <br> to break line
 
 
+//Other ways to declare variables
+$call['lname'] = "Okama";
+print $call['lname'];
+
+print"<br>";//Using <br> to break line
+
+define('LNAME', 'Okama');
+echo LNAME;
 
 
 ?>
