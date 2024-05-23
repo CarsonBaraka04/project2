@@ -26,4 +26,76 @@ date_default_timezone_set("Africa/Nairobi");
 
 print date('1, F jS Y H:i:s');
 
+
+
+//Creating (Declaring) a variable
+
+$fname = "Alex";//Declaration of a variable or a string or group of words
+
+$yob = 1999;//Declaration of digit or an integer
+
+print"<br>";//Using <br> to break line
+
+print $fname;
+
+print"<br>";//Using <br> to break line
+
+$user_dob = "1999-05-26";
+
+echo $fname . " was born in " . $yob;
+
+print"<br>";//Using <br> to break line
+
+echo $fname . " was actually born on " . date('1, F jS Y H:i:s');
+
+echo $yob;
+
+print"<br>";//Using <br> to break line
+
+$current_year = date('Y');
+
+echo $current_year;
+
+print"<br>";//Using <br> to break line
+
+$age = $current_year - $yob;//Using subtraction to find the actual age
+
+print $fname . " is " . $age . " years old.";
+
+print"<br>";//Using <br> to break line
+
+print "45 + 96";
+
+print"<br>";//Using <br> to break line
+
+print 45 + 96;
+
+$birthday = new DateTime($user_dob);
+$today = new DateTime('today');
+
+$interval = $birthday->diff($today);
+
+echo '<pre>';
+print_r($interval);
+echo'</pre>';
+
+print"<br>";//Using <br> to break line
+
+print $fname . " is, actually, " . $interval-> . " years " . $interval->m . " months, and " . $interval->d . "days old.";
+
+print"<br>";//Using <br> to break line
+
+$adult_age = 18;
+if($interval->y > $adult_age){
+    print $fname . " is na adult";//event in block to be executed if the condition is true
+}else{
+    print $fname . " is not an adult";//event in the block to be executed if the condition is false
+}
+
+
+
 ?>
+
+
+
+
