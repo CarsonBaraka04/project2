@@ -94,6 +94,23 @@ if($interval->y > $adult_age){
 
 
 
+//Variable Characteristics
+
+$last_name = "Okama";
+
+echo "My last name is $last_name";
+
+print"<br>";//Using <br> to break line
+
+echo 'My last name is ' . $last_name;
+
+print"<br>";//Using <br> to break line
+
+echo "Today is " . date('1');
+
+
+
+
 ?>
 
 
