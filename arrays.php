@@ -36,7 +36,44 @@
     <?php print_r($user_data);?>
 </pre>
 
+<?php
+//Multidimensional arrays
+    $user_details = [
+        
+        "Director" => array(
+            "Fullname" => "Alex Okama",
+            "address" => "Mada",
+            "email" => "AOkama@gmail.com",
+            "phone" => [
+                "home" => "+2548458565",
+                "work" => "+2548451265",
+                "mobile" => "+2548458965"
+                ]
+            ),
 
+        "Secretary" => array(
+            "Fullname" => "Mercy Karimi",
+            "address" => "Pavlov",
+            "email" => "Mkarimi@gmail.com",
+            "phone" => [
+                "home" => "+254787654312",
+                "work" => "+254712345678",
+                "mobile" => "+254745649273"
+                ]
+            ),
+
+        "Manager" => array(
+            "Fullname" => "Felix Ouma",
+            "address" => "Jaber",
+            "email" => "FOuma@gmail.com",
+            "phone" => [
+                "home" => "+254740383637",
+                "work" => "+25473836373840",
+                "mobile" => "+254734467268" 
+                ]
+            )
+    ]
+?>  
 
 
 
