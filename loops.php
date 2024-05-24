@@ -36,7 +36,7 @@ while($in < 10){
 <h4>Foreach</h4>
 <?php
 
-//Foreach
+//For-each
 $months = ["January", "February", "March", "April", "May","June", "July", "August", "September", "October", "November", "December"];
 
 foreach($months AS $month){
@@ -44,6 +44,41 @@ foreach($months AS $month){
 }
 
 ?>
+
+<form action="">
+    <select name="" id="">
+        <option value="">--Months--</option>
+
+        <?php
+            foreach($months AS $month){
+                print "<option value=''>$month</option>";
+            }
+        ?>
+
+    </select>
+
+    <select name="" id="">
+        <option value="">--Year--</option>
+
+        <?php
+            //While-loop
+            $y = 2014;
+            while($y < 2030){
+                print "<option value=''>$y</option>";
+                $y++;
+            }
+        ?>
+
+    </select>
+</form>
+
+
+
+
+
+
+
+
 
 
 
