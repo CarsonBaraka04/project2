@@ -18,7 +18,7 @@ while($in < 10){
         print $s . "<br>";
         $s++;
     }while($s < 15);
-    
+
 ?>
 
 
@@ -33,6 +33,17 @@ while($in < 10){
 ?>
 
 
+<h4>Foreach</h4>
+<?php
+
+//Foreach
+$months = ["January", "February", "March", "April", "May","June", "July", "August", "September", "October", "November", "December"];
+
+foreach($months AS $month){
+    print $month . "<br>";
+}
+
+?>
 
 
 
