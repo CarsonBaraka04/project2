@@ -1,0 +1,30 @@
+
+.content{
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+
+.side_bar{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+p, li{
+    text-align: justify; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+img{
+    padding-right: 10px;
+    width: 40%;
+    float: left;
+}
+
+@media screen and (max-width: 700px) {
+    .content, .side_bar, img{
+        width: 100%;
+    }    
+}
