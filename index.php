@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+<?php include_once ("templates/nav.php"); ?>        
         <div class="banner">
             <h1>Welcome</h1> 
         </div>
