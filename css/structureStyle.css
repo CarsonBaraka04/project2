@@ -1,23 +1,28 @@
-.toplink{
+body{
     background-color: rgb(233, 233, 233);
-    overflow: hidden;
+    /* background-image: url('images/bg/liane.jpg'); */
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.banner{
+    background-color: rgb(83, 81, 78);
+    padding: 20px;
+    text-align: center;
+    color: rgb(233, 233, 233);
 }
 
-.toplink a{
-    color: rgb(83, 81, 78);
-    text-decoration: none;
-    padding: 14px 16px;
+.row:after{
+    content: " ";
     display: block;
-    float: left;
-    text-align: left;
+    clear: both;
 }
 
-.toplink a:hover{
-    color:  rgb(233, 233, 233);
-    background-color:rgb(83, 81, 78);
-    text-decoration: none;
-}
 
-.toplink-right{
-    float: right;
+.footer{
+    background-color: rgb(83, 81, 78);
+    padding: 20px;
+    text-align: center;
+    color: rgb(233, 233, 233);
 }
