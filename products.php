@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <title>Welcome - Document</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <?php include_once ("templates/nav.php"); ?>    
+<?php include_once("templates/heading.php"); ?>
+<?php include_once ("templates/nav.php"); ?>    
         <div class="banner">
             <h1>Welcome</h1> 
         </div>
@@ -83,29 +76,6 @@
                     </tr>
                 </table>
         </div>
-        <div class="side_bar">
-            <!--Heading 2 starts here-->
-            <h2>Short Stories</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <!--Heading 2 ends here-->
-            <ul>
-            <li>HTML</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>MySQL</li>
-            <li>PHP</li>
-        </ul>
-        <ol type="I" start="4">
-            <li>Back</li>
-            <li>Red</li>
-            <li>Yellow</li>
-            <li>Pink</li>
-            <li>White</li>
-        </ol>
-    </div>
-</div>
-<div class="footer">
-    Copyright BBIT 2.1 &copy; Allrights reserved 
-</div>
-</body>
-</html>
+<?php include_once("templates/side_bar.php"); ?>
+        </div>
+<?php include_once("templates/footer.php"); ?>
