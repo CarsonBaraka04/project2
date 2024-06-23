@@ -1,5 +1,5 @@
 <?php include_once("templates/heading.php"); ?>
-    <?php include_once ("templates/nav.php"); ?>    
+<?php include_once ("templates/nav.php"); ?>    
         <div class="banner">
             <h1>About Us</h1> 
         </div>
