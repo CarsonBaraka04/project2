@@ -1,12 +1,17 @@
 <?php
+session_start();
 
-$dsn = "mysql:host=localhost;dbname=project_2";
-$dbusername = "root";
-$dbpassword = "";
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "project_2";
 
-try {
-    $pdo = new PDO($dsn, $dbusername, $dbpassword);//actual line to connect to database
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
-}
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+    // echo "Connected successfully";
+?>
