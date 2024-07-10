@@ -6,7 +6,7 @@
         <div class="row">
         <div class="content">
             <h1>Our Products</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>The TEMA Library website offers a welcoming gateway to the world of knowledge. Browse the website to explore their extensive collection,  discover upcoming events, and even become a member.  The library also offers a curated selection of merchandise to enhance your reading experience. From reusable tote bags to limited edition book club mugs, there's something for everyone to show their love for TEMA Library and support their commitment to fostering a love of reading in the community.</p>
                 <table>
                     <tr>
                         <th colspan="2">Item Name</th>
@@ -16,63 +16,42 @@
                     </tr>
                     <tr>
                         <td>1.</td>
-                        <td>Book</td>
-                        <td>2</td>
-                        <td>Ksh 300</td>
-                        <td>Ksh 600</td>
+                        <td>TEMA Library Tote Bag</td>
+                        <td>10</td>
+                        <td>$10</td>
+                        <td>$100</td>
                     </tr>
                     <tr>
                         <td>2.</td>
-                        <td>Pen</td>
-                        <td>5</td>
-                        <td>Ksh 20</td>
-                        <td>Ksh 100</td>
+                        <td>Limited Edition Book Club Mug</td>
+                        <td>20</td>
+                        <td>$8</td>
+                        <td>$160</td>
                     </tr>
                     <tr>
                         <td>3.</td>
-                        <td>Book</td>
-                        <td>2</td>
-                        <td>Ksh 300</td>
-                        <td>Ksh 600</td>
+                        <td>"Friends of TEMA Library" T-Shirt</td>
+                        <td>15</td>
+                        <td>$15</td>
+                        <td>$225</td>
                     </tr>
                     <tr>
                         <td>4.</td>
-                        <td>Pen</td>
-                        <td>5</td>
-                        <td>Ksh 20</td>
-                        <td>Ksh 100</td>
+                        <td>Bookmarks with Local Artwork</td>
+                        <td>25</td>
+                        <td>$3</td>
+                        <td>$75</td>
                     </tr>
                     <tr>
                         <td>5.</td>
-                        <td>Book</td>
-                        <td>2</td>
-                        <td>Ksh 300</td>
-                        <td>Ksh 600</td>
-                    </tr>
-                    <tr>
-                        <td>6.</td>
-                        <td>Pen</td>
-                        <td>5</td>
-                        <td>Ksh 20</td>
-                        <td>Ksh 100</td>
-                    </tr>
-                    <tr>
-                        <td>7.</td>
-                        <td>Book</td>
-                        <td>2</td>
-                        <td>Ksh 300</td>
-                        <td>Ksh 600</td>
-                    </tr>
-                    <tr>
-                        <td>8.</td>
-                        <td>Pen</td>
-                        <td>5</td>
-                        <td>Ksh 20</td>
-                        <td>Ksh 100</td>
+                        <td>Mystery Book Bundle</td>
+                        <td>10</td>
+                        <td>$20</td>
+                        <td>$200</td>
                     </tr>
                     <tr>
                         <th colspan="4">Total</th>
-                        <th>Ksh 2,800</th>
+                        <th>$760</th>
                     </tr>
                 </table>
         </div>
