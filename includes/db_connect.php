@@ -4,7 +4,7 @@ session_start();
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "project_2";
+    $dbname = "practice";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -13,5 +13,5 @@ session_start();
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    // echo "Connected successfully";
+    echo "Connected successfully";
 ?>
