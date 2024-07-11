@@ -66,7 +66,7 @@
       }
       else{
         echo "<script>alert('error, tyr again')</script>";
-        header("Location: signup.php");
+        header("Location: index.php");
       }
     
     }catch(msqli_sql_exception $e){
