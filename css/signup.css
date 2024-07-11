@@ -1,4 +1,4 @@
-.containerform{
+/*.containerform{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +8,7 @@
     margin-top: 100px;
 
 }
+
 body{
     margin:0;
     height: 100vh;
@@ -15,10 +16,9 @@ body{
     background: linear-gradient(to right top, #0f075a, #00286a, #003861, #00444e, #004d3e, #164d34, #254c2b, #324b22, #33431e, #323c1b, #303519, #2d2e17);
 
    
-
 }
 .containerform form{
-    background-color: #004d3e;
+    background-color: #ffffff;
     padding: 40px;
     border-radius: 10px;
     color: white;
@@ -34,4 +34,4 @@ body{
     border: 2px solid #424242;
     box-sizing: border-box;
     margin: 8px 0;
-}
+}*/

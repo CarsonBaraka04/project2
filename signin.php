@@ -31,7 +31,7 @@
       <input name="username" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       
     </div>
-    <button type="submit"  name="submit" class="btn btn-primary">Sign in</button>
+<button type="submit"  name="submit" class="btn btn-primary">Sign in</button>
     <a href="signin.php">Sign Up</a>
 
   </form>
