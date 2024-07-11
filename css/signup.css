@@ -1,0 +1,37 @@
+.containerform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin-left: 40%;
+    margin-top: 100px;
+
+}
+body{
+    margin:0;
+    height: 100vh;
+
+    background: linear-gradient(to right top, #0f075a, #00286a, #003861, #00444e, #004d3e, #164d34, #254c2b, #324b22, #33431e, #323c1b, #303519, #2d2e17);
+
+   
+
+}
+.containerform form{
+    background-color: #004d3e;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+
+
+}
+.containerform form input[type= password],[type=text],[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.6em;
+    border-radius: 4px;
+    border: 2px solid #424242;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
