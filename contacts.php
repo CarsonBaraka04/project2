@@ -37,9 +37,9 @@ if(isset($_POST["send_message"])){
         <label for="sb">Subject:</label><br>
         <select name="subject_line" id="sb" required>
             <option value="">--Select Subject--</option>
-            <option value="Email Support">Email Support</option>
-            <option value="eLearning Support">eLearning Support</option>
-            <option value="AMS Support">AMS Support</option>
+            <option value="book catalogue">book catalogue</option>
+            <option value="registration enquiry">registration enquiry</option>
+            <option value="fee balance">fee balance</option>
         </select><br><br>
 
         <label for="sb">Message:</label><br>
